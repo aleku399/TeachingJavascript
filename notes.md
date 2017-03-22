@@ -1,0 +1,4 @@
+commands for pushing to github
+git add --all
+git commit -m 'msg'
+git push origin master

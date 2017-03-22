@@ -1,0 +1,57 @@
+Arguments: 
+  /home/allan/.linuxbrew/Cellar/node/7.6.0/bin/node /home/allan/.linuxbrew/bin/yarn
+
+PATH: 
+  /home/allan/.linuxbrew/bin:/home/allan/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  0.20.3
+
+Node version: 
+  7.6.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "alex",
+    "version": "1.0.0",
+    "description": "javascript tutorials for Alex",
+    "main": "functions-01.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node fn-01.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/epicallan/TeachingJavascript.git"
+    },
+    "keywords": [
+      "tutorial",
+      "lessons"
+    ],
+    "author": "Allan",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/epicallan/TeachingJavascript/issues"
+    },
+    "homepage": "https://github.com/epicallan/TeachingJavascript#readme",
+    "devDependencies": {
+      "eslint": "^3.4.0",
+      "eslint-config-standard": "^6.0.0",
+      "eslint-plugin-promise": "^2.0.1",
+      "eslint-plugin-standard": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1028:11)
+      at TLSWrap.onread (net.js:572:26)
