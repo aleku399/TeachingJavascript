@@ -1,3 +1,1 @@
-## For Alex
-
-- Programming lessons
+## Programming lessons in Teach Javascript course
